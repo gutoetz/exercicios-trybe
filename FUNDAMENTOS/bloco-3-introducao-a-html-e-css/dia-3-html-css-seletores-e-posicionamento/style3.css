@@ -1,0 +1,14 @@
+h1,p {
+  text-align: center;
+  list-style: none
+}
+li:hover {
+    background-color: green;
+    color: white;
+    list-style: none
+}
+li:active {
+  font-family: monospace;
+  font-size: 40px;
+  list-style: none
+}

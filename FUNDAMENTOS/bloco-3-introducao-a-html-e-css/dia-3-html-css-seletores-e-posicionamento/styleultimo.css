@@ -1,0 +1,49 @@
+.listaO {
+    background-color: yellow;
+}
+.listaO .im {
+    text-transform: uppercase;
+}
+.listaO .pa {
+    color: green;
+}
+
+.headers {
+    color: red;
+
+}
+.headers em {
+    font-size: 40px;
+    border: 1px solid black;
+}
+li {
+    font-size: 20px;
+
+}
+li em {
+    font-weight: bold;
+}
+.lis .xx {
+    color: blue;
+}
+.lis .java{
+    background-color: pink;
+}
+.destaque:hover {
+    font-weight: bold;   
+}
+.stack:hover {
+    color: orange;
+}
+.w3:hover {
+    color: green;
+}
+.moz:hover {
+    color: black;
+}
+.dev:hover {
+    color:yellow;
+}
+.tryb:hover:hover {
+    color: green;
+}

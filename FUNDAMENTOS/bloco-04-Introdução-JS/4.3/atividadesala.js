@@ -11,11 +11,19 @@ Bônus: Crie a condição utilizando operador ternário.
 “Pessoa” é a mais nova.*/
 
 
+
+
+
+
 //  let sum = 0;
 // for(let i = 35; i <= 105; i += 1){
 //   sum += i
 // }
 // console.log("A soma de 35 a 105 é:", sum) 
+
+
+
+
 
 // let contador = 0;
 // for(let i = 15; i <= 155; i += 1){
@@ -24,6 +32,10 @@ Bônus: Crie a condição utilizando operador ternário.
 // console.log(contador)
 // if(contador >= 50){console.log("Contador maior do q 50")}
 // else {console.log("contador menor do que 50")}
+
+
+
+
 
 // function jogo(jogador1,jogador2){
 //     if(jogador1 === "pedra" && jogador2 === "tesoura"){return "Jogador 1 vence"}
@@ -37,15 +49,20 @@ Bônus: Crie a condição utilizando operador ternário.
 //     else if(jogador1 === "tesoura" && jogador2 === "papel"){return "Jogador 1 vence"}
 // } console.log(jogo("tesoura","tesoura"))
 
+
+
 // let age = 16;
 // age >= 18 ? console.log("A pessoa é maior de idade") : console.log("A pessoa é menor de idade");
 
-let arr = [21,28,13];
-let arr2 = [...arr].sort()
-console.log(arr2)
-let indice = 0
-for(let i = 0; i < arr.length; i ++){
-    if(arr2[0] === arr[i]){indice = i}
-}
 
-console.log(indice)
+
+
+// let arr = [21,28,13];
+// let arr2 = [...arr].sort()
+// console.log(arr2)
+// let indice = 0
+// for(let i = 0; i < arr.length; i ++){
+//     if(arr2[0] === arr[i]){indice = i}
+// }
+
+// console.log(indice)

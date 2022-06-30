@@ -27,6 +27,7 @@
 
       .main-content .center-content p {
         font-style: italic;
+  
       }
     </style>
   </head>
@@ -50,8 +51,24 @@
         
           bac.style.backgroundColor = 'blue'
        }
-     function mudandoBa(){}
+     function mudandoBa(){
      document.querySelectorAll('.main-content .center-content')[0].style.backgroundColor = 'white';
+     }
+     function texto(){
+      document.getElementsByTagName('h1')[0].innerText = 'corrigindo text'
+     }
+     function upper(){
+     let paragrafos = document.getElementsByTagName('p');
+     for(paragrafo of paragrafos){
+      paragrafo.innerText = paragrafo.innerText.toUpperCase()
+     }
+     }
+     function mostrando(){
+     let shows = document.getElementsByTagName('p');
+     for(show of shows){
+      console.log(show)
+     }
+     }
      /*
         Aqui você vai modificar os elementos já existentes utilizando apenas as funções:
         - document.getElementById()

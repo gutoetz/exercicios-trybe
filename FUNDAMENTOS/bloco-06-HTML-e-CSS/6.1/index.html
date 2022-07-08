@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="container">
+      <form>
+        <div class="input-group mb-3">
+          <span class="input-group-text" id="basic-addon1">Nome: </span>
+          <input
+            placeholder="Nome Completo"
+            type="text"
+            name="name"
+            id="names"
+            minlength="10"
+            maxlength="40"
+            required
+            class="form-control"
+          />
+        </div>
+        <div class="input-group mb-3">
+          <span class="input-group-text" id="basic-addon1">Email: </span>
+          <input
+            placeholder="Email"
+            type="email"
+            name="email"
+            id="emails"
+            minlength="10"
+            maxlength="50"
+            required
+            class="form-control"
+          />
+        </div>
+        <div class="form-check">
+          <h4 id="teste" class="text-start">Qual seu destino preferido?</h4>
+          <label class="form-check-label" for="opt-1"> </label>
+          <input
+            class="form-check-input"
+            type="radio"
+            name="destino"
+            id="opt-1"
+            value="Praia"
+          />Praia
+        </div>
+        <div class="form-check">
+          <label class="form-check-label" for="opt-2">
+            <input
+              type="radio"
+              name="destino"
+              id="opt-2"
+              value="Cachoeira"
+              class="form-check-input"
+            />Cachoeira
+          </label>
+        </div>
+        <div class="form-check">
+          <label class="form-check-label" for="opt-3">
+            <input
+              type="radio"
+              name="destino"
+              id="opt-3"
+              value="Montanhas"
+              class="form-check-input"
+            />Montanhas
+          </label>
+        </div>
+        <div class="form-check">
+          <label class="form-check-label" for="opt-4">
+            <input
+              type="radio"
+              name="destino"
+              id="opt-4"
+              value="Neve"
+              class="form-check-input"
+            />Neve
+          </label>
+        </div>
+        <div>
+          <p>
+            Por que você deveria ser a pessoa desenvolvedora a ganhar o concurso
+            TrybeTrip?
+          </p>
+          <textarea
+            placeholder="Escreva seus motivos"
+            name="motivos"
+            id="motivos"
+            cols="40"
+            rows="10"
+            maxlength="500"
+            class="form-floating"
+          ></textarea>
+        </div>
+        <div>
+          <label class="form-check-label" for="data"
+            >Qual a melhor data para a viagem?</label
+          >
+          <input
+            class="form-floating"
+            required
+            type="date"
+            placeholder="dd/mm/yyyy"
+          />
+        </div>
+        <div class="input-group mb-3">
+          <div class="input-group-text">
+            <input required class="form-check-input mt-0" type="checkbox" />
+          </div>
+          <input
+            value="Concordo com a Trybe usar as minhas fotos da viagem!!"
+            type="text"
+            class="form-control"
+            name="termo"
+            id="termo"
+          />
+        </div>
+        <button class="btn btn-primary" id="btn-submit" type="submit">
+          Enviar Formulario
+        </button>
+        <button class="btn btn-outline-secondary" id="buttn" type="reset">
+          Limpar
+        </button>
+      </form>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
